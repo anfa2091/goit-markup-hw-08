@@ -5,55 +5,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/sytles.css">
     <title>Principal</title>
 </head>
 
 <body>
-    <header>
+    <header class="Encabezado">
+        <a href="WebStudio">
+            <p class="WebStudio">WebStudio </p>
+        </a>
         <nav>
-            <a href="WebStudio">WebStudio</a>
-            <a href="Estudio">Estudio</a>
-            <a href="Portafolio">Portafolio</a>
-            <a href="Сontactos">Сontactos</a>
+            <a href="index.html" class="Link-encabezado" >Estudio</a>
+            <a href="portafolio.html">Portafolio</a>
+            <a href="index.html" >Сontactos</a>
         </nav>
         <div>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+            <a href="mailto:info@devstudio.com" class="Info-contact">info@devstudio.com</a>
+        </div>
+        <div>
+            <a href="tel:+52 55 5529 6000" class="Info-contact">+52 55 5529 6000</a>
         </div>
     </header>
     <main>
-        <div>
-            <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <div class="Contenido">
+            <h1 class="Titulo-principal" >SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
             </header>
-            <button type="button">Solicite nuestro servicio</button>
+            <button type="button" class="Boton-servicio"> Solicite nuestro servicio</button>
         </div>
         <section>
-            <ul>
+            <ul class="Informacion-servicio" style="list-style: none;">
                 <li>
-                    <b>ATENCIÓN A LOS DETALLES</b>
-                    <p>
+                    <B class="Informacion-titulo">ATENCIÓN A LOS DETALLES</B>
+                    <p class="Informacion-texto">
                         Nos adentramos en todos los detalles y procesos de su negocio, para
                         así desarrollar una solución a su medida.
                     </p>
                 </li>
                 <li>
-                    <B>PUNTUALIDAD</B>
-                    <p>
+                    <B class="Informacion-titulo">PUNTUALIDAD</B>
+                    <p class="Informacion-texto">
                         Con nosotros, usted puede sentirse seguro y protegido. Un principio
                         importante de la empresa: respetar su tiempo y respetar los plazos
                         acordados.
                     </p>
                 </li>
                 <li>
-                    <B>PLANIFICACIÓN</B>
-                    <p>
+                    <B class="Informacion-titulo">PLANIFICACIÓN</B>
+                    <p class="Informacion-texto">
                         Usted podrá observar y participar en cada fase del desarrollo y
                         aplicación de soluciones.
                     </p>
                 </li>
                 <li>
-                    <B>TEGNOLOGÍA MODERNA</B>
-                    <p>
+                    <B class="Informacion-titulo">TEGNOLOGÍA MODERNA</B>
+                    <p class="Informacion-texto">
                         Usamos herramientas innovadoras para resolver las tareas asignadas.
                         Es hora de simplificar los procesos laborales.
                     </p>
@@ -61,61 +69,71 @@
             </ul>
         </section>
         <section>
-            <h2>A qué nos dedicamos</h2>
-            <ul>
-                <li>
+            <h2 class="Informacion-trabajo">A qué nos dedicamos</h2>
+            <ul class="Informacion-servicio" style="list-style: none;">
+                <li class="Informacion-imagen">
                     <img src="Images/image1.jpg" alt="image1" width="370" />
                 </li>
-                <li>
+                <li class="Informacion-imagen">
                     <img src="Images/image2.jpg" alt="image2" width="370" />
                 </li>
-                <li>
+                <li class="Informacion-imagen">
                     <img src="Images/image3.jpg" alt="image3" width="370" />
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Nuestro Equipo</h2>
-            <ul>
-                <li>
+            <h2 class="Informacion-trabajo">Nuestro Equipo</h2>
+            <ul class="Informacion-servicio" style="list-style: none;">
+                <li class="Informacion-imagen">
+                    <section class="Imagen-integrantes">
                     <img src="Images/image4.jpg" alt="image1" width="270" />
-                    <p>
+                    <p class="Nombre-equipo">
                         <strong>Andrés Cubo</strong>
                     </p>
-                    <p>Diseñador de Productos</p>
+                    <p class="Ocupacion">Diseñador de Productos</p>
+                    </section>
                 </li>
-                <li>
+                <li class="Informacion-imagen">
+                    <section class="Imagen-integrantes">
                     <img src="Images/image5.jpg" alt="image2" width="270" />
-                    <p>
+                    <p class="Nombre-equipo">
                         <strong>Carla Palacios</strong>
                     </p>
-                    <p>Desarrolladora Frontend</p>
+                    <p class="Ocupacion">Desarrolladora Frontend</p>
+                    </section>
                 </li>
-                <li>
+                <li class="Informacion-imagen">
+                    <section class="Imagen-integrantes">
                     <img src="Images/image6.jpg" alt="image3" width="270" />
-                    <p>
+                    <p class="Nombre-equipo">
                         <strong>Mario Dorado</strong>
                     </p>
-                    <p>Marketing</p>
+                    <p class="Ocupacion">Marketing</p>
+                    </section>
                 </li>
-                <li>
+                <li class="Informacion-imagen">
+                    <section class="Imagen-integrantes">
                     <img src="Images/image7.jpg" alt="image3" width="270" />
-                    <p>
+                    <p class="Nombre-equipo">
                         <strong>Pablo Mijangos</strong>
                     </p>
-                    <p>Diseñador IU</p>
+                    <p class="Ocupacion">Diseñador IU</p>
+                    </section>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <section>
-            <h2>WebStudio</h2>
-            <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-            <a href="mailto:info@example.com">info@example.com</a>
+        <section class="Pie-pagina">
+            <h2 class="WebStudio-pie-pagina">WebStudio</h2>
+            <div class="Datos-contacto">
+            <p style="color: #FFFFFF;">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
+            <a style="color: rgba(255, 255, 255, 0.6);" href="mailto:info@example.com">info@example.com</a>
             <p>
-                <a href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+                <a style="color: rgba(255, 255, 255, 0.6);" href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
             </p>
+            </div>
         </section>
     </footer>
 </body>
