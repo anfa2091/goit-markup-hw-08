@@ -302,146 +302,18 @@ body {
     color: #757575;
 }
 
-.team-img {
-    height: 260px;
-}
-
-.team-section {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-.list {
-    align-items: center;
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    list-style: none;
-    padding: 10px;
-}
-
-.footer-list {
-    list-style-type: disc;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-    list-style: none;
-    margin: 0;
-}
-
-.footer-list p {
-    margin: 0;
-}
-
-.social-media-title {
-    color: rgba(255, 255, 255, 1);
-    font-family: "Roboto";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 16px;
-    margin-block-start: 35px;
-    margin-block-end: 20px;
-    margin-inline-end: 0px;
-    margin-inline-start: 40px;
-    padding-bottom: 0%;
-    text-transform: uppercase;
-}
-
-.social-media-button {
-    display: flex;
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.1);
-    height: 40px;
-    width: 40px;
-    align-items: center;
-    text-align: center;
-}
-
-.social-media-button:hover {
-    background-color: rgba(33, 150, 243, 1);
-}
-
-.social-media-button img {
-    margin-left: 10px;
-}
-
-.footer-social-media ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.footer-social-media ul li {
-    margin-right: 10px;
-}
-
-
-
-
-.footer-page-name {
-    color: rgba(33, 150, 243, 1);
-    font-family: "Raleway"sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    left: 215px;
-    letter-spacing: 0.03em;
-    line-height: 31px;
-    text-align: right;
-    text-decoration: none;
-    display: block;
-    margin-block-start: 20px;
-    margin-block-end: 14px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.logo img {
-    height: 50px;
-}
-
-
-
 a {
     color: rgba(33, 33, 33, 1);
     text-decoration: none;
 }
 
+/* Generales */
 nav a {
     font-weight: 600;
     padding-right: 100px;
 }
 
 nav a:hover {
-    color: rgba(33, 150, 243, 1);
-}
-
-#label__check {
-    height: 100%;
-    width: 50px;
-}
-
-#check__menu {
-    display: none;
-    width: 50px;
-}
-
-#check__menu:checked~a {
     color: rgba(33, 150, 243, 1);
 }
 
@@ -453,52 +325,7 @@ footer {
     padding-top: 40px;
 }
 
-address {
-    color: rgba(255, 255, 255, 1);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    line-height: 24px;
-    margin-left: 100px;
-    width: 231px;
-}
-
-
-
-
-
-
-
-.product-card {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-
-.category-card:hover {
-    background-color: rgba(33, 150, 243, 1);
-    box-shadow: 3px 3px 3px 3px rgba(238, 238, 238, 1);
-    color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-}
-
-
-
-.portafolio-content ul li {
-    list-style: none;
-}
-
-
-
-
-
-article ul li figure {
+article ul li{
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px rgba(238, 238, 238, 1);
     height: 404px;
@@ -507,6 +334,6 @@ article ul li figure {
     width: 370px;
 }
 
-article ul li figure:hover {
+article ul li:hover{
     box-shadow: 2px 3px 6px 2px rgba(238, 238, 238, 1);
 }
