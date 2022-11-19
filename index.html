@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/sytles.css">
+    <link rel="stylesheet" href="css/modern-normalize.css">
     <title>Principal</title>
 </head>
 
@@ -37,14 +38,14 @@
         </div>
         <section>
             <ul class="Informacion-servicio" style="list-style: none;">
-                <li>
+                <li class="Info">
                     <B class="Informacion-titulo">ATENCIÓN A LOS DETALLES</B>
                     <p class="Informacion-texto">
                         Nos adentramos en todos los detalles y procesos de su negocio, para
                         así desarrollar una solución a su medida.
                     </p>
                 </li>
-                <li>
+                <li class="Info">
                     <B class="Informacion-titulo">PUNTUALIDAD</B>
                     <p class="Informacion-texto">
                         Con nosotros, usted puede sentirse seguro y protegido. Un principio
@@ -52,14 +53,14 @@
                         acordados.
                     </p>
                 </li>
-                <li>
+                <li class="Info">
                     <B class="Informacion-titulo">PLANIFICACIÓN</B>
                     <p class="Informacion-texto">
                         Usted podrá observar y participar en cada fase del desarrollo y
                         aplicación de soluciones.
                     </p>
                 </li>
-                <li>
+                <li class="Info">
                     <B class="Informacion-titulo">TEGNOLOGÍA MODERNA</B>
                     <p class="Informacion-texto">
                         Usamos herramientas innovadoras para resolver las tareas asignadas.
@@ -82,7 +83,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="Contenido-trabajo">
             <h2 class="Informacion-trabajo">Nuestro Equipo</h2>
             <ul class="Informacion-servicio" style="list-style: none;">
                 <li class="Informacion-imagen">
@@ -124,16 +125,18 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <section class="Pie-pagina">
+    <footer class="Pie-pagina">
+        <section>
             <h2 class="WebStudio-pie-pagina">WebStudio</h2>
-            <div class="Datos-contacto">
-            <p style="color: #FFFFFF;">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-            <a style="color: rgba(255, 255, 255, 0.6);" href="mailto:info@example.com">info@example.com</a>
-            <p>
+            <ul class="Datos-contacto" style="list-style: none;">
+                <li style="color: #FFFFFF;">Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
+                <li>
+                <a style="color: rgba(255, 255, 255, 0.6);" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
                 <a style="color: rgba(255, 255, 255, 0.6);" href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
-            </p>
-            </div>
+                </li>
+            </ul>
         </section>
     </footer>
 </body>
