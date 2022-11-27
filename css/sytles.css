@@ -57,6 +57,15 @@ body {
     color: #2196F3;
 }
 
+.Link-encabezado-solo::after{
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #2196F3;
+    border-radius: 2px;
+}
+
 .contacto{
     display: flex;
     justify-content: center;
