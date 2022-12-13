@@ -148,17 +148,17 @@ body {
 
 .Titulo-principal{
     width: 696px;
-    height: 120px;
-    left: 448px;
-    top: 280px;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 110px;
-    color: #FFFFFF;
+        height: 120px;
+        left: 448px;
+        top: 280px;
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-bottom: 110px;
+        color: #FFFFFF;
 }
 
 .Boton-servicio {
@@ -296,25 +296,18 @@ body {
     left: 0px;
     top: 1510px;
     background: #F5F4FA;
+    margin-top: 100px;
 }
 
-.Informacion-trabajo {
+.Informacion-trabajo-equipo{
     align-items: center;
-    color: rgba(33, 33, 33, 1);
     display: flex;
-    flex-direction: row;
     height: 80px;
-    top: 991px;
-    left: 619px;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     justify-content: center;
     letter-spacing: 0.03em;
-    line-height: 42px;
-    text-align: center;
-    margin-bottom: 70px;
-    padding-top: 100px;
+    padding-top: 60px;
+    margin-bottom: 60px;
 }
 
 .Nombre-equipo {
@@ -537,6 +530,7 @@ body {
 
 .Portafolio-productos-figuras {
     box-sizing: border-box;
+    width: 370px;
     height: 410px;
     left: calc(50% - 370px/2 - 400px);
     top: calc(50% - 404px/2 - 464px);
