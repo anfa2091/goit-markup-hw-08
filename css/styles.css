@@ -478,6 +478,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 1400px;
+    padding-top: 60px;
 }
 
 .Portafolio-categorias {
@@ -519,70 +520,96 @@ body {
     border-radius: 4px;
 }
 
-.Portafolio-productos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* Seccion images */
+
+
+.Portafolio-container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 40px 100px;
+    
 }
 
-.Portafolio-productos-figuras {
-    box-sizing: border-box;
+.Portafolio-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+} 
+
+.card-container{
     width: 370px;
-    height: 410px;
-    left: calc(50% - 370px/2 - 400px);
-    top: calc(50% - 404px/2 - 464px);
-    margin: 20px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+}
+
+.card-container:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.Nombre-producto {
-    box-sizing: border-box;
-    width: 322px;
-    height: 36px;
-    left: calc(50% - 322px/2 - 400px);
-    top: calc(50% - 36px/2 - 334px);
-    font-weight: 700;
+.card-description{
+    padding: 20px 24px;
+}
+
+.card-animation{
+    position: absolute;
+    top: 0;
+    height: 294px;
+    width: 370px;
+    background: rgba(33, 150, 243, 0.9);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 63px 24px;
+    transform: translateY(105%);
+    transition: transform 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-container:hover .card-animation{
+    transform: translateY(0%);
+}
+
+.card-image{
+    position:relative;
+    overflow: hidden;
+}
+
+.card-text{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+.card-title{
+    font-weight: 700px;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    padding-left: 24px;
-    margin-bottom: 5px;
     color: #212121;
 }
+ 
+.card-category{
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    color: #757575;
+}
+
+
+
+
 
 .Nombre-producto-poster {
-    box-sizing: border-box;
-    width: 322px;
-    height: 36px;
-    left: calc(50% - 322px/2 - 400px);
-    top: calc(50% - 36px/2 - 334px);
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.06em;
     padding-left: 24px;
-    margin-bottom: 5px;
     color: #212121;
 }
 
-.Tipo-categoria {
-    box-sizing: border-box;
-    width: 322px;
-    height: 80px;
-    left: calc(50% - 322px/2 - 400px);
-    top: calc(50% - 30px/2 - 297px);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    margin-left: 24px;
-    color: #757575;
-}
+
 
 /* Modal */
 .backdrop.is-hidden{
@@ -665,10 +692,11 @@ article ul li {
 
 article ul li:hover {
     box-shadow: 2px 3px 6px 2px rgba(238, 238, 238, 1);
+    
 }
 
 ul li:hover {
-    color: #2196f3;
+    border: 1px solid rgba(238, 238, 238, 1);
 }
 
 figure {
