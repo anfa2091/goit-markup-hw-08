@@ -13,7 +13,7 @@ body {
 }
 
 .encabezado {
-    width: 1400px;
+    width: 1450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ body {
     color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    width: 1450px;
     height: 600px;
     left: -4px;
     top: 80px;
@@ -289,7 +289,7 @@ body {
 /* Nuestro equipo */
 
 .Contenido-trabajo {
-    width: 1400px;
+    width: 1450px;
     height: 648px;
     left: 0px;
     top: 1510px;
@@ -373,7 +373,7 @@ body {
 
 .contenido-clientes {
     display: flex;
-    gap: 30px;
+    gap: 25px;
     margin-bottom: 150px;
     margin-left: 85px;
     justify-content: center;
@@ -406,7 +406,7 @@ body {
 /* footer */
 
 .Pie-pagina {
-    width: 1400px;
+    width: 1450px;
     height: 240px;
     left: 500px;
     top: 2158px;
@@ -596,10 +596,6 @@ body {
     color: #757575;
 }
 
-
-
-
-
 .Nombre-producto-poster {
     font-weight: 700;
     font-size: 18px;
@@ -609,7 +605,63 @@ body {
     color: #212121;
 }
 
+/* seccion boletin informativo */
 
+.boletin-container {
+    padding: 30px 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boletin-title{
+    width: 285px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.boletin-form{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0px;
+}
+
+.boletin-input {
+    padding: 18px;
+    width: 370px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background: #2f303a;
+    border-radius: 4px;
+}
+
+.boletin-input:hover{
+    border: 1px solid #2196f3;
+}
+
+.boletin-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 190px;
+    height: 50px;
+    background: #2196f3;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.boletin-button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.boletin-icon{
+    fill: #ffffff;
+    width: 24px;
+    height: 24px;   
+}
 
 /* Modal */
 .backdrop.is-hidden{
@@ -632,10 +684,10 @@ body {
 .modal{
     position: relative;
     background: #FFFFFF;
-    height: 95%;
     width: 95%;
     padding: 40px;
     max-width: 528px;
+    max-height: 620px;
 }
 
 .modal-close{
@@ -655,9 +707,144 @@ body {
     fill: #212121;
 }
 
+/* modal completed */
 
+.modal-title{
+    width: 448px;
+    height: 23px;
+    left: 576px;
+    top: 261px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
+.modal-form{
+    Padding-top: 12px;
+}
 
+.modal-name{
+    height: 14px;
+    left: 56px;
+    top: 296px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    
+}
+
+.modal-input{
+    display: block;
+    outline: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    height: 40px;
+    width: 448px;
+    padding-left: 40px;
+    height: 40px;
+    left: 576px;
+    top: 314px;
+}
+
+.modal-input:hover, .modal-input:focus{
+    border: 1px solid #2196F3;
+}
+
+.modal-svg{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    fill: #212121;
+}
+
+.modal-svg:hover, .modal-svg:focus{
+    fill: #2196F3;
+}
+
+.modal-position{
+    position: relative;
+    padding: 6px 0px; 
+}
+
+.modal-label {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.modal-textarea {
+    width: 100%;
+    font-size: 13px;
+    padding: 16px 12px;
+    outline: none;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-textarea:hover{
+    border: 1px solid #2196f3;
+}
+
+.modal-textarea-label {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 38px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.modal-span {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #212121;
+    background: #2196f3;
+    border-radius: 2px;
+}
+
+.modal-textarea-label input[type=checkbox]:checked+.modal-span:hover {
+    background: #2196f3;
+    border: none;
+}
+
+.modal-check{
+    width: 15px;
+    height: 15px;
+    fill: #FFFFFF;
+    position: absolute;
+}
+
+.modal-textarea-label input[type=checkbox]:checked+.modal-span .modal-check {
+    display: inline;
+}
+
+.modal-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    margin: 12px auto;
+    align-items: center;
+    justify-content: center;
+    background: #188CE8;
+}
 
 /* Generales */
 a {

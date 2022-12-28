@@ -59,16 +59,7 @@
             <h1 class="Titulo-principal">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
             </header>
             <button type="button" class="Boton-servicio" id="data-modal-open"> Solicite nuestro servicio</button>
-            <div class="backdrop is-hidden" id="data-modal">
-                <div class="modal">
-                    <button id="data-modal-close" class="modal-close">
-                        <svg class="modal-icon">
-                            <use href="./Images/svg/icons.svg#Modal-cerrar">
-                            </use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+            
         </div>
         <section>
             <div>
@@ -373,7 +364,81 @@
                 </li>
             </ul>
         </section>
+        <section>
+            <div class="boletin-container">
+                <h3 class="boletin-title">suscribase al boletín informativo</h3>
+                <form class="boletin-form">
+                    <input class="boletin-input" type="email" name="email" placeholder="Correo electrónico">
+                    <button class="boletin-button" type="submit">
+                        <b>Suscríbase</b>                        
+                        <svg class="boletin-icon">
+                            <use href="./Images/svg/icons.svg#boletin-icono">
+                            </use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </section>
     </footer>
+    <div class="backdrop is-hidden" id="data-modal">
+        <div class="modal">
+            <button id="data-modal-close" class="modal-close">
+                <svg class="modal-icon">
+                    <use href="./Images/svg/icons.svg#Modal-cerrar">
+                    </use>
+                </svg>
+            </button>
+            <h3 class="modal-title">Deje sus datos, nos contactaremos con usted</h3>
+            <form class="modal-form">
+                <label class="modal-name" for="input-name">
+                    Nombre
+                </label>
+                <div class="modal-position">
+                    <input class="modal-input" type="text" name="name" id="input-name" required>
+                    <svg class="modal-svg">
+                        <use href="./Images/svg/icons.svg#Modal-persona"></use>
+                    </svg>
+                </div>
+                <label class="modal-name" for="input-telefono">
+                    Teléfono
+                </label>
+                <div class="modal-position">
+                    <input class="modal-input" type="tel" name="telefono" id="input-telefono" required>
+                    <svg class="modal-svg">
+                        <use href="./Images/svg/icons.svg#Modal-telefono"></use>
+                    </svg>
+                </div>
+                <label class="modal-name" for="input-email">
+                    E-mail
+                </label>
+                <div class="modal-position">
+                    <input class="modal-input" type="email" name="name" id="input-email" required>
+                    <svg class="modal-svg">
+                        <use href="./Images/svg/icons.svg#Modal-email"></use>
+                    </svg>
+                </div>
+                <div class="modal-position">
+                    <label class="modal-label" for="feedback">
+                        Comentarios
+                    </label>
+                    <textarea class="modal-textarea" name="feeback" id="" cols="30" rows="7" placeholder="Introduzca texto"></textarea>
+                </div>
+                <div class="modal-position">
+                    <label class="modal-textarea-label">
+                        <input type="checkbox" id="input-accept-" hidden name="checkbox" required>
+                        <span class="modal-span"> 
+                            <svg class="modal-check">
+                                <use href="./Images/svg/icons.svg#Modal-check">
+                                </use>
+                        </span>
+                        Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+                    </label>
+                    <button type="submit" class="modal-button">Enviar</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
     <script src="js/modal.js"></script>
 </body>
 
