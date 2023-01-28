@@ -1,0 +1,31 @@
+
+
+.customer-title {
+    font-family: 'Roboto';
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 50px;
+}
+
+.customer-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 90px 0px;
+    padding-left: 38px;
+    gap: 26px;
+
+}
+
+.customer {
+    width: 170px;
+    height: 81px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+    margin-top: 40px;
+}
+
+.customer:hover path {
+    fill: #2196F3;
+}

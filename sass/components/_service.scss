@@ -1,0 +1,148 @@
+
+
+.Service-container {
+    align-items: center;
+    background-color: rgba(47, 48, 58, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 600px;
+    left: -4px;
+    top: 80px;
+    justify-content: center;
+    background: linear-gradient(0deg,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../Images/svg/Imagen-fondo.svg)
+}
+
+.Service-title {
+    width: 696px;
+    height: 120px;
+    left: 448px;
+    top: 280px;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Service-btn {
+    align-items: center;
+    background: rgba(33, 150, 243, 1);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    width: 261px;
+    margin-top: 40px;
+}
+
+.Service-image {
+    display: flex;
+    margin-left: 65px;
+}
+
+.Service-logo {
+    width: 270px;
+    weight: 120px;
+    top: 769px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+    margin-left: 32px;
+    margin-top: 80px;
+}
+
+.Service-antena {
+    width: 70px;
+    height: 70px;
+    left: 206px;
+    top: 769px;
+    background: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 95px;
+}
+
+.Service-reloj {
+    width: 76px;
+    height: 76px;
+    left: 506px;
+    top: 769px;
+    background: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 95px;
+}
+
+.Service-tv {
+    width: 70px;
+    height: 70px;
+    left: 806px;
+    top: 769px;
+    background: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 95px;
+}
+
+.Service-astronauta {
+    width: 70px;
+    height: 70px;
+    left: 1106px;
+    top: 769px;
+    background: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.Service-information {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.Service-margin {
+    margin-left: 32px;
+}
+
+.Service-div-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.Service-text {
+    width: 270px;
+    height: 75px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}

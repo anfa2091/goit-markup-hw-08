@@ -1,0 +1,93 @@
+
+
+.teamwork-container {
+    width: auto;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+    background: #F5F4FA;
+    margin-top: 90px;
+}
+
+.teamwork-title {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    font-size: 36px;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.teamwork-space {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.teamwork-image {
+    width: 270px;
+    height: 420px;
+    left: 215px;
+    top: 1785px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.teamwork-image:hover {
+    background-color: #AFB1B8;
+    border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.teamwork-integrantes {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.teamwork-name {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+.teamwork-job {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.teamwork-redes {
+    display: flex;
+    margin-top: 20px;
+}
+
+.teamwork-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    fill: #F5F4FA;
+    background-color: #AFB1B8;
+    margin-left: 40px;
+}
+
+.teamwork-icon-style {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 28px;
+    fill: #AFB1B8;
+}
