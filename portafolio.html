@@ -8,44 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"  rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
     <link rel="stylesheet" href="css/modern-normalize.css">
     <title>Portafolio</title>
 </head>
 
 <body>
-    <header class="encabezado">
+    <header class="header">
         <!-- Logo -->
-        <div class="encabezado-container">
-            <a class="encabezado-logo" href="index.html">WebStudio</a>
-            <nav class="encabezado-nav">
+        <div class="header-container">
+            <a class="header-logo" href="index.html">WebStudio</a>
+            <nav class="header-nav">
                 <!-- Menu -->
-                <ul class="menu">
+                <ul class="header-nav-menu">
                     <li>
-                        <a class="nav nav-estudio" href="index.html">Estudio</a>
+                        <a class="nav-menu nav-menu-estudio" href="index.html">Estudio</a>
                     </li>
                     <li>
-                        <a class="nav" href="portafolio.html">Portafolio</a>
+                        <a class="nav-menu" href="portafolio.html">Portafolio</a>
                     </li>
                     <li>
-                        <a class="nav" href="">Contacto</a>
+                        <a class="nav-menu" href="">Contacto</a>
                     </li>
                 </ul>
                 <!-- Contactos -->
-                <ul class="contacto">
+                <ul class="header-contacto">
                     <li>
-                        <a class="sobre" href="mailto:info@devstudio.com">
-                            <svg class="email">
-                                <use href="Images/svg/icons.svg#sobre"></use>
+                        <a class="header-sobre" href="mailto:info@devstudio.com">
+                            <svg class="header-email">
+                                <use href="./Images/svg/icons.svg#sobre"></use>
                             </svg>
                             info@devstudio.com
                         </a>
                     </li>
                     <li>
-                        <a class="phone" href="tel:+525555296000">
-                            <svg class="telefono">
-                                <use href="Images/svg/icons.svg#celular">
-    
+                        <a class="header-phone" href="tel:+525555296000">
+                            <svg class="header-telefono">
+                                <use href="./Images/svg/icons.svg#celular">
                                 </use>
                             </svg>
                             +525555296000
@@ -180,11 +179,11 @@
             </section>
         </section>
     </main>
-    <footer class="Pie-pagina">
+    <footer class="footer">
         <section>
             <address>
-                <h2 class="WebStudio-pie-pagina">WebStudio</h2>
-                <ul class="Datos-contacto">
+                <h2 class="footer-WebStudio">WebStudio</h2>
+                <ul class="footer-contact">
                     <li style="color: #FFFFFF;">Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
                     <li>
                         <a style="color: rgba(255, 255, 255, 0.6);" href="mailto:info@example.com">info@example.com</a>
@@ -196,41 +195,50 @@
             </address>
         </section>
         <section>
-            <h3 class="Titulo-redes">ENCUENTRENOS EN</h3>
-            <ul class="Logo-container">
-                <li class="Logo-icon">
-                    <svg class="Logo-redes">
-                        <use href="./Images/svg/icons.svg#instagram1">
-                        </use>
-                    </svg>
-                </li>
-                <li class="Logo-icon">
-                    <svg class="Logo-redes">
-                        <use href="./Images/svg/icons.svg#twitter1">
-                        </use>
-                    </svg>
-                <li class="Logo-icon">
-                    <svg class="Logo-redes">
-                        <use href="./Images/svg/icons.svg#facebook1">
-                        </use>
-                    </svg>
-                </li>
-                <li class="Logo-icon">
-                    <svg class="Logo-redes">
-                        <use href="./Images/svg/icons.svg#linkedin1">
-                        </use>
-                    </svg>
-                </li>
+            <h3 class="footer-title-redes">ENCUENTRENOS EN</h3>
+            <ul class="footer-container-redes">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <li class="footer-redes">
+                        <svg class="footer-icon">
+                            <use href="./Images/svg/icons.svg#instagram1">
+                            </use>
+                        </svg>
+                    </li>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <li class="footer-redes">
+                        <svg class="footer-icon">
+                            <use href="./Images/svg/icons.svg#twitter1">
+                            </use>
+                        </svg>
+                    </li>
+                </a>
+                <a href="https://facebook.com/" target="_blank">
+                    <li class="footer-redes">
+                        <svg class="footer-icon">
+                            <use href="./Images/svg/icons.svg#facebook1">
+                            </use>
+                        </svg>
+                    </li>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <li class="footer-redes">
+                        <svg class="footer-icon">
+                            <use href="./Images/svg/icons.svg#linkedin1">
+                            </use>
+                        </svg>
+                    </li>
+                </a>
             </ul>
         </section>
         <section>
-            <div class="boletin-container">
-                <h3 class="boletin-title">suscribase al boletín informativo</h3>
-                <form class="boletin-form">
-                    <input class="boletin-input" type="email" name="email" placeholder="Correo electrónico">
-                    <button class="boletin-button" type="submit">
+            <div class="footer-container-boletin">
+                <h3 class="footer-boletin-title">suscríbase al boletín informativo</h3>
+                <form class="footer-boletin-form">
+                    <input class="footer-boletin-input" type="email" name="email" placeholder="Correo electrónico">
+                    <button class="footer-boletin-btn" type="submit">
                         <b>Suscríbase</b>
-                        <svg class="boletin-icon">
+                        <svg class="footer-boletin-icon">
                             <use href="./Images/svg/icons.svg#boletin-icono">
                             </use>
                         </svg>
