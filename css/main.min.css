@@ -688,66 +688,50 @@ body {
 }
 
 /* Portafolio.html */
-.Portafolio-botones {
-  align-items: center;
+.portafolio-contain {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 1400px;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
-.Portafolio-categorias {
-  align-items: center;
+.portafolio-btn {
   display: flex;
-  flex-direction: row;
   height: fit-content;
-  justify-content: center;
 }
 
-.Portafolio-categoria-botones-todo {
-  align-items: center;
-  background-color: #2196F3;
-  color: #FFFFFF;
-  width: 73px;
-  display: flex;
-  flex-direction: row;
-  font-weight: 500;
-  height: 38px;
-  justify-content: center;
-  margin-right: 30px;
-  white-space: nowrap;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.Portafolio-categoria-botones {
+.portafolio-btn-category {
   align-items: center;
   background: #F5F4FA;
   color: #212121;
   display: flex;
-  flex-direction: row;
-  font-weight: 500;
-  height: 38px;
-  justify-content: center;
-  margin-right: 30px;
-  white-space: nowrap;
-  width: fit-content;
+  font-weight: 600;
+  height: 40px;
+  margin: 80px 10px 40px;
+  padding: 15px;
+  width: max-content;
+  letter-spacing: 0.08em;
+  border: 1px solid #212121;
   border-radius: 4px;
 }
 
-/* Seccion images */
-.Portafolio-container {
-  width: 1400px;
-  margin: 0 auto;
-  padding: 40px 100px;
+.portafolio-btn-category:hover {
+  background: #188CE8;
+  color: #F5F4FA;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.Portafolio-card {
+/* Seccion images */
+.card-section {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 40px 85px;
+}
+
+.card-div {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  margin-bottom: 80px;
+  gap: 40px;
 }
 
 .card-container {
@@ -807,15 +791,6 @@ body {
   letter-spacing: 0.03em;
   padding-top: 10px;
   color: #757575;
-}
-
-.Nombre-producto-poster {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.06em;
-  padding-left: 24px;
-  color: #212121;
 }
 
 /* Generales */
