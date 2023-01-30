@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+@import "../sass/components/_card.scss";
+@import url("../sass/components/_customer.scss");
+@import url("../sass/components/_dedication.scss");
+@import url("../sass/components/_footer.scss");
+@import url("../sass/components/_header.scss");
+@import url("../sass/components/_portafolio.scss");
+@import url("../sass/components/_service.scss");
+@import url("../sass/components/_teamwork.scss");
+@import "../sass/utils/_variables.scss";
 
 // Pagina Index.html
 
@@ -19,7 +28,6 @@ body {
     align-items: center;
     border: 1px solid #ececec;
     height: 80px;
-
 }
 
 .header-container {
@@ -35,7 +43,7 @@ body {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    color: #2196f3;
+    color: $color-blue;
 }
 
 .header-nav {

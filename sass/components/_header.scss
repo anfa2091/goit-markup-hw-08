@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 
 .header {
     width: 1366px;
@@ -22,7 +24,7 @@
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    color: #2196f3;
+    color: $color-blue;
 }
 
 .header-nav {
@@ -48,7 +50,7 @@
 }
 
 .nav-menu-estudio {
-    color: #2196f3;
+    color: $color-blue;
 }
 
 .nav-menu-estudio::after {
@@ -57,7 +59,7 @@
     content: "";
     width: 100%;
     height: 5px;
-    background: #2196f3;
+    background: $color-blue;
     border-radius: 4px;
     margin-top: 27px;
 }

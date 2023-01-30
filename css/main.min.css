@@ -1,4 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("../sass/components/_customer.scss");
+@import url("../sass/components/_dedication.scss");
+@import url("../sass/components/_footer.scss");
+@import url("../sass/components/_header.scss");
+@import url("../sass/components/_portafolio.scss");
+@import url("../sass/components/_service.scss");
+@import url("../sass/components/_teamwork.scss");
+.card-section {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 40px 85px;
+}
+
+.card-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  gap: 40px;
+}
+
+.card-container {
+  width: 370px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+}
+
+.card-container:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-container:hover .card-animation {
+  transform: translateY(0%);
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-animation {
+  position: absolute;
+  top: 0;
+  height: 294px;
+  width: 370px;
+  background: rgba(33, 150, 243, 0.9);
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  padding: 63px 24px;
+  transform: translateY(105%);
+  transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+.card-description {
+  padding: 20px 24px;
+}
+
+.card-title {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.card-category {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  padding-top: 10px;
+  color: #757575;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
