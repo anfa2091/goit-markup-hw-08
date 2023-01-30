@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 1366px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,10 +76,6 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-}
-
-.header-sobre,
-.heder-phone {
   font-weight: 500;
   font-size: 14px;
 }
@@ -104,7 +100,7 @@ body {
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 1366px;
   height: 600px;
   left: -4px;
   top: 80px;
@@ -143,12 +139,12 @@ body {
 
 .Service-image {
   display: flex;
-  margin-left: 65px;
+  margin-left: 66px;
 }
 
 .Service-logo {
   width: 270px;
-  weight: 120px;
+  height: 120px;
   top: 769px;
   border-radius: 4px;
   justify-content: center;
@@ -251,20 +247,23 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 50px 0px 0px 25px;
-  gap: 30px;
+  padding: 50px 0px;
 }
 
-.dedication-imagen {
+.dedication-image {
   display: flex;
   margin-top: 30px;
   margin-left: 30px;
 }
 
+.dedication-image:hover {
+  border: 2px solid rgb(117, 117, 117);
+}
+
 /* Nuestro equipo */
 .teamwork-container {
-  width: 100%;
-  height: 648px;
+  width: 1366px;
+  height: 680px;
   left: 0px;
   top: 1510px;
   background: #F5F4FA;
@@ -274,12 +273,11 @@ body {
 .teamwork-title {
   align-items: center;
   display: flex;
-  height: 80px;
+  height: 130px;
   font-size: 36px;
   justify-content: center;
   letter-spacing: 0.03em;
-  padding-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 30px;
 }
 
 .teamwork-space {
@@ -357,7 +355,7 @@ body {
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .customer-container {
@@ -383,14 +381,14 @@ body {
 
 /* footer */
 .footer {
-  width: 100%;
+  width: 1366px;
   height: 240px;
   left: 500px;
   top: 2158px;
 }
 
 .footer-WebStudio {
-  Width: 145px;
+  width: 145px;
   height: 31px;
   font-family: "Raleway";
   font-style: normal;
