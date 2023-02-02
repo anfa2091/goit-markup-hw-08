@@ -1,3 +1,4 @@
+@import "../utils/variables";
 
 .Service-container {
     align-items: center;
@@ -6,7 +7,7 @@
     color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
-    width: 1366px;
+    width: 100%x;
     height: 600px;
     left: -4px;
     top: 80px;
@@ -46,102 +47,42 @@
     margin-top: 40px;
 }
 
-.Service-image {
+.Service-div-container {
     display: flex;
-    margin-left: 66px;
+    justify-content: center;
 }
 
 .Service-logo {
     width: 270px;
-    weight: 120px;
-    top: 769px;
+    display: flex;
+    justify-content: center;
     border-radius: 4px;
-    justify-content: center;
-    align-items: center;
     background: #F5F4FA;
-    margin-left: 32px;
-    margin-top: 80px;
+    margin: 90px 12px 30px;
 }
 
-.Service-antena {
+.Service-icon {
     width: 70px;
     height: 70px;
-    left: 206px;
-    top: 769px;
-    background: #F5F4FA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 12px;
-    margin-left: 95px;
-}
-
-.Service-reloj {
-    width: 76px;
-    height: 76px;
-    left: 506px;
-    top: 769px;
-    background: #F5F4FA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 95px;
-}
-
-.Service-tv {
-    width: 70px;
-    height: 70px;
-    left: 806px;
-    top: 769px;
-    background: #F5F4FA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 95px;
-}
-
-.Service-astronauta {
-    width: 70px;
-    height: 70px;
-    left: 1106px;
-    top: 769px;
-    background: #F5F4FA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 100px;
-}
-
-.Service-information {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 30px;
-
+    margin: 10px 0px;
 }
 
 .Service-margin {
-    margin-left: 32px;
+    width: 270px;
+    margin: 10px 12px;   
 }
 
 .Service-div-title {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #212121;
+    letter-spacing: 0.03em; 
+    
 }
 
 .Service-text {
-    width: 270px;
-    height: 75px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    padding: 15px 0px;
     color: #757575;
-    margin-top: 10px;
+
 }

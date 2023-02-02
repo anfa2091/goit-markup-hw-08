@@ -1,22 +1,22 @@
+@import "../utils/variables";
 
 .dedication-title {
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin: 110px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 50px;
 }
 
 .dedication-container {
     align-items: center;
     display: flex;
-    justify-content: center;
-    padding: 50px 0px;
+    justify-content: center;    
 }
 
 .dedication-image {
-    display: flex;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin: 10px 10px;  
 }
 
 .dedication-image:hover {

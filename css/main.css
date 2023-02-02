@@ -76,14 +76,15 @@
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 60px;
 }
 
 .customer-container {
-  height: 130px;
   display: flex;
   justify-content: center;
-  gap: 28px;
-  margin: 50px 0px;
+  margin: 10px 10px 90px 0px;
+  padding-left: 38px;
+  gap: 26px;
 }
 
 .customer {
@@ -92,6 +93,7 @@
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
+  margin-top: 40px;
 }
 
 .customer:hover path {
@@ -124,43 +126,48 @@
 /* footer */
 .footer {
   width: 100%;
-  height: 260px;
-  display: flex;
-  justify-content: center;
+  height: 240px;
+  left: 500px;
+  top: 2158px;
 }
 
 .footer-WebStudio {
+  width: 145px;
   height: 31px;
   font-family: "Raleway";
   font-style: normal;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-left: 110px;
+  margin-top: 20px;
   color: #2196F3;
-  padding: 30px 0px;
 }
 
 .footer-contact {
-  width: 240px;
+  width: 231px;
   height: 21px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding: 20px 0px;
+  margin: 20px 0px 0px 110px;
+  color: #FFFFFF;
 }
 
 .footer-title-redes {
+  width: 135px;
+  height: 16px;
   font-family: "Roboto";
   font-size: 14px;
   letter-spacing: 0.03em;
-  padding: 43px 0px 0px 70px;
+  margin: 30px 70px 15px;
   color: #FFFFFF;
 }
 
 .footer-container-redes {
   display: flex;
-  gap: 10px;
-  padding: 20px 0px 0px 70px;
+  margin: 20px 0px 0px 70px;
+  gap: 12px;
 }
 
 .footer-redes {
@@ -186,7 +193,7 @@
 
 /* seccion boletin informativo */
 .footer-container-boletin {
-  padding: 43px 0px 0px 80px;
+  margin: 30px 80px;
 }
 
 .footer-boletin-title {
@@ -202,12 +209,11 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 18px 0px;
+  padding: 12px 0px;
 }
 
 .footer-boletin-input {
-  height: 50px;
-  padding: 15px;
+  padding: 18px;
   width: 370px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -443,31 +449,32 @@
   height: 680px;
   left: 0px;
   top: 1510px;
-  margin: 80px 0px;
   background: #F5F4FA;
+  margin-top: 90px;
 }
 
 .teamwork-title {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
+  height: 130px;
   font-size: 36px;
+  justify-content: center;
   letter-spacing: 0.03em;
-  padding: 90px 0px 60px;
 }
 
 .teamwork-space {
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  gap: 30px;
 }
 
 .teamwork-image {
   width: 270px;
   height: 420px;
+  left: 215px;
+  top: 1785px;
   display: flex;
-  justify-content: center;
 }
 
 .teamwork-image:hover {
@@ -482,14 +489,18 @@
 }
 
 .teamwork-name {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
   letter-spacing: 0.03em;
   line-height: 19px;
-  padding: 20px 0px 10px;
 }
 
 .teamwork-job {
   color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 19px;
   text-align: center;
@@ -497,8 +508,6 @@
 
 .teamwork-redes {
   display: flex;
-  justify-content: center;
-  padding: 20px 0px;
 }
 
 .teamwork-icon {
@@ -754,4 +763,4 @@ svg:hover {
   fill: #2196F3;
 }
 
-/*# sourceMappingURL=main.min.css.map */
+/*# sourceMappingURL=main.css.map */

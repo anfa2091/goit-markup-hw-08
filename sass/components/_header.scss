@@ -1,14 +1,13 @@
 @import "../utils/variables";
 
 
-.header {
-    width: 1366px;
+.header{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #ececec;
     height: 80px;
-
 }
 
 .header-container {

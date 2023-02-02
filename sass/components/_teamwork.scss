@@ -1,39 +1,36 @@
-
+@import "../utils/variables";
 
 .teamwork-container {
-    width: 1366px;
+    width: 100%;
     height: 680px;
     left: 0px;
     top: 1510px;
-    background: #F5F4FA;
-    margin-top: 90px;
+    margin: 80px 0px;
+    background: #F5F4FA;    
 }
 
 .teamwork-title {
-    align-items: center;
     display: flex;
-    height: 130px;
-    font-size: 36px;
+    align-items: center;
     justify-content: center;
+    font-size: 36px;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-}
+    padding: 90px 0px 60px;
+    
+}  
 
 .teamwork-space {
     align-items: center;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
+    gap: 30px;    
 }
 
 .teamwork-image {
     width: 270px;
     height: 420px;
-    left: 215px;
-    top: 1785px;
     display: flex;
-    margin-left: 30px;
+    justify-content: center;    
 }
 
 .teamwork-image:hover {
@@ -50,28 +47,24 @@
 }
 
 .teamwork-name {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: bold;
+    text-align: center;
     letter-spacing: 0.03em;
     line-height: 19px;
-    margin-top: 20px;
+    padding: 20px 0px 10px;
 }
 
 .teamwork-job {
     color: rgba(117, 117, 117, 1);
-    font-size: 16px;
-    font-weight: 400;
     letter-spacing: 0.03em;
     line-height: 19px;
-    text-align: center;
-    margin-top: 10px;
+    text-align: center;    
 }
 
 .teamwork-redes {
     display: flex;
-    margin-top: 20px;
+    justify-content: center;
+    padding: 20px 0px;
+    
 }
 
 .teamwork-icon {
@@ -80,7 +73,7 @@
     border-radius: 50px;
     fill: #F5F4FA;
     background-color: #AFB1B8;
-    margin-left: 40px;
+    
 }
 
 .teamwork-icon-style {
