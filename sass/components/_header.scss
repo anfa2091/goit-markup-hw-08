@@ -1,19 +1,16 @@
 @import "../utils/variables";
+@import "../utils/mixin.scss";
 
 
 .header{
+    @include display;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid #ececec;
     height: 80px;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include display (space-between);
     height: 80px;
     width: 100%;
     max-width: calc(1600px - 430px);
@@ -27,24 +24,20 @@
 }
 
 .header-nav {
+    @include display (space-between);
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-left: 93px;
 }
 
 .header-nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include display (space-between);
     gap: 50px;
 }
 
 .nav-menu {
     font-weight: 500;
     font-size: 14px;
-    color: #212121;
+    color: $color-dark--grey;
     position: relative;
 }
 
@@ -65,9 +58,7 @@
 
 
 .header-contacto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include display (space-between);
     gap: 50px;
     font-weight: 500;
     font-size: 14px;

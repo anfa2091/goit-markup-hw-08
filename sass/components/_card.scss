@@ -3,22 +3,20 @@
 .card-section {
     width: 100%;
     margin: 0 auto;
-    padding: 40px 85px;
-
+    padding: 30px 0px 140px;
 }
 
 .card-div {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 80px;
-    gap: 40px;
+    gap: 30px;
 }
 
 .card-container {
     width: 370px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-
+    background: $color-white;
+    border: 1px solid $color-grey-background;
 }
 
 .card-container:hover {
@@ -41,7 +39,7 @@
     width: 370px;
     background: rgba(33, 150, 243, 0.9);
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: $color-white;
     padding: 63px 24px;
     transform: translateY(105%);
     transition: transform 250ms ease;
@@ -49,7 +47,6 @@
 }
 
 .card-text {
-    font-family: 'Roboto';
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
@@ -64,12 +61,12 @@
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: $color-dark--grey;
 }
 
 .card-category {
     font-size: 16px;
     letter-spacing: 0.03em;
     padding-top: 10px;
-    color: #757575;
+    color: $color-grey-icon;
 }

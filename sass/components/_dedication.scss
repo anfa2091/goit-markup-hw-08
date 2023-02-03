@@ -1,18 +1,16 @@
 @import "../utils/variables";
+@import "../utils/mixin";
 
 .dedication-title {
+    @include display;
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    display: flex;
-    justify-content: center;
     margin: 80px 0px 50px;
 }
 
 .dedication-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;    
+    @include display;   
 }
 
 .dedication-image {

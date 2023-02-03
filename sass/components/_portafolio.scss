@@ -1,10 +1,10 @@
 @import "../utils/variables";
+@import "../utils/mixin.scss";
 
 /* Portafolio.html */
 
 .portafolio-contain {
-    display: flex;
-    justify-content: center;
+    @include display;
 }
 
 .portafolio-btn {
@@ -13,22 +13,21 @@
 }
 
 .portafolio-btn-category {
-    align-items: center;
-    background: #F5F4FA;
-    color: #212121;
-    display: flex;
-    font-weight: 600;
+    @include display;
+    background: $color-grey-background;
+    color: $color-dark--grey;
+    font-weight: 600px;
     height: 40px;
     margin: 80px 10px 40px;
     padding: 15px;
     width: max-content;
     letter-spacing: 0.08em;
-    border: 1px solid #212121;
+    border: 1px solid $color-dark--grey;
     border-radius: 4px;
 }
 
 .portafolio-btn-category:hover {
-    background: #188CE8;
-    color: #F5F4FA;
-    border: 2px solid rgba(0, 0, 0, 0.1)
+    background: $color-blue;
+    color: $color-grey-background;
+    border: 2px solid $color-grey-rgba;
 }

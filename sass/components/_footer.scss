@@ -1,4 +1,5 @@
 @import "../utils/variables";
+@import "../utils/mixin.scss";
 
 /* footer */
 
@@ -17,7 +18,7 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: $color-blue;
     padding: 30px 0px;
 }
 
@@ -35,7 +36,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     padding: 43px 0px 0px 70px;
-    color: #FFFFFF;
+    color: $color-white;
 }
 
 .footer-container-redes {
@@ -45,9 +46,7 @@
 }
 
 .footer-redes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include display;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 25px;
     cursor: pointer;
@@ -56,14 +55,13 @@
 }
 
 .footer-redes:hover {
-    border: 1px solid rgba(238, 238, 238, 1);
+    border: 1px solid $color-white;
 }
 
 .footer-icon {
     height: 20px;
     width: 20px;
-    fill: rgba(255, 255, 255, 1);
-    ;
+    fill: $color-white-rgba;
 }
 
 /* seccion boletin informativo */
@@ -78,12 +76,11 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $color-white;
 }
 
 .footer-boletin-form {
-    display: flex;
-    align-items: center;
+    @include display;
     gap: 16px;
     padding: 18px 0px;
 }
@@ -93,33 +90,31 @@
     padding: 15px;
     width: 370px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0px 4px 4px $color-grey-rgba);
     background: #2f303a;
     border-radius: 4px;
 }
 
 .footer-boletin-input:hover {
-    border: 1px solid #2196f3;
+    border: 1px solid $color-blue;
 }
 
 .footer-boletin-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include display;
     gap: 15px;
     width: 190px;
     height: 50px;
-    background: #2196f3;
+    background: $color-blue;
     border-radius: 4px;
-    color: #ffffff;
+    color: $color-white;
 }
 
 .footer-boletin-btn:hover {
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid $color-grey-rgba;
 }
 
 .footer-boletin-icon {
-    fill: #ffffff;
+    fill: $color-white;
     width: 24px;
     height: 24px;
 }
