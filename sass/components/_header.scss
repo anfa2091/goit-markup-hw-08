@@ -1,77 +1,84 @@
 @import "../utils/variables";
 @import "../utils/mixin.scss";
 
+@media screen and (min-width: 1200px) {
 
-.header{
-    @include display;
-    width: 100%;
-    border: 1px solid #ececec;
-    height: 80px;
+    .header {
+        @include display;
+        width: 100%;
+        border: 1px solid #ececec;
+        height: 80px;
+        padding: 0px 90px 0px 50px; 
+    }
+    
+    .header-container {
+        @include display (space-between);
+        height: 80px;
+        width: 100%;
+        max-width: 1200px;
+    }
+    
+    .header-logo {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        color: $color-blue;
+    }
+    
+    .header-nav {
+        @include display (space-between);
+        width: 100%;
+        margin-left: 93px;
+    }
+    
+    .header-nav-menu {
+        @include display (space-between);
+        gap: 50px;
+    }
+    
+    .nav-menu {
+        font-weight: 500;
+        font-size: 14px;
+        color: $color-dark--grey;
+        position: relative;
+    }
+    
+    .nav-menu-estudio {
+        color: $color-blue;
+    }
+    
+    .nav-menu-estudio::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 5px;
+        background: $color-blue;
+        border-radius: 4px;
+        margin-top: 27px;
+    }
+    
+    .header-contacto {
+        @include display (space-between);
+        gap: 50px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .header-email {
+        width: 16px;
+        height: 11px;
+        margin-right: 10px;
+    }
+    
+    .header-telefono {
+        width: 10px;
+        height: 13px;
+        margin-right: 10px;
+    }
 }
 
-.header-container {
-    @include display (space-between);
-    height: 80px;
-    width: 100%;
-    max-width: calc(1600px - 430px);
-}
+@media screen and (min-width: 320px) and (max-width: 768px) {}
 
-.header-logo {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    color: $color-blue;
-}
+@media screen and (min-width: 768px) and (max-width: 1200px) {}
 
-.header-nav {
-    @include display (space-between);
-    width: 100%;
-    margin-left: 93px;
-}
-
-.header-nav-menu {
-    @include display (space-between);
-    gap: 50px;
-}
-
-.nav-menu {
-    font-weight: 500;
-    font-size: 14px;
-    color: $color-dark--grey;
-    position: relative;
-}
-
-.nav-menu-estudio {
-    color: $color-blue;
-}
-
-.nav-menu-estudio::after {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 5px;
-    background: $color-blue;
-    border-radius: 4px;
-    margin-top: 27px;
-}
-
-
-.header-contacto {
-    @include display (space-between);
-    gap: 50px;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.header-email {
-    width: 16px;
-    height: 11px;
-    margin-right: 10px;
-}
-
-.header-telefono {
-    width: 10px;
-    height: 13px;
-    margin-right: 10px;
-}
