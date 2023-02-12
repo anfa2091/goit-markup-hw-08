@@ -8,14 +8,14 @@
         width: 100%;
         border: 1px solid #ececec;
         height: 80px;
-        padding: 0px 90px 0px 50px; 
+        padding: 0px 30px; 
     }
     
     .header-container {
         @include display (space-between);
         height: 80px;
         width: 100%;
-        max-width: 1200px;
+        max-width: 1145px;
     }
     
     .header-logo {

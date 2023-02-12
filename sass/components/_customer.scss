@@ -1,35 +1,36 @@
 @import "../utils/variables";
 @import "../utils/mixin.scss";
 
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px){
+
+    .customer-title {
+        @include display;
+        font-family: 'Roboto';
+        font-size: 36px;
+        letter-spacing: 0.03em;
+    }
+    
+    .customer-container {
+        @include display;
+        height: 150px;
+        gap: 22px;
+        margin: 30px 0px 60px;
+    }
+    
+    .customer {
+        width: 170px;
+        height: 81px;
+        border: 1px solid $color-grey-icon;
+        border-radius: 4px;
+        fill: $color-grey-icon;
+    }
+    
+    .customer:hover path {
+        fill: $color-blue;
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {}
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {}
 
-.customer-title {
-    @include display;
-    font-family: 'Roboto';
-    font-size: 36px;
-    letter-spacing: 0.03em;    
-}
-
-.customer-container {
-    @include display;
-    height: 150px;
-    gap: 28px;
-    margin: 30px 0px 50px;
-}
-
-.customer {
-    width: 170px;
-    height: 81px;
-    border: 1px solid $color-grey-icon;
-    border-radius: 4px;
-    fill: $color-grey-icon;
-    
-}
-
-.customer:hover path {
-    fill: $color-blue;
-}
