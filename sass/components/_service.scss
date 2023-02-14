@@ -132,16 +132,15 @@
 
     .Service-div-container {
         @include display;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }
 
     .Service-logo {
         @include display;
-        width: 270px;
+        width: 354px;
         border-radius: 4px;
         background: $color-grey-background;
-        margin: 90px 9px 30px;
+        margin: 60px 9px 0px;
     }
 
     .Service-icon {
@@ -151,8 +150,8 @@
     }
 
     .Service-margin {
-        width: 270px;
-        margin: 10px 9px;
+        width: 354px;
+        padding: 30px 9px;
     }
 
     .Service-div-title {
@@ -161,9 +160,9 @@
     }
 
     .Service-text {
-        font-size: 13px;
+        font-size: 12.3px;
         line-height: 24px;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
         padding: 15px 0px;
         color: #757575;
     }

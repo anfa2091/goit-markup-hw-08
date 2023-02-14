@@ -16,6 +16,7 @@
         top: 0;
         left: 0;
         background-color: #00000060;
+        padding: 480px 0px 390px;
     }
     
     .modal {
@@ -196,15 +197,16 @@
         top: 0;
         left: 0;
         background-color: #00000060;
+        padding: 480px 0px 390px;    
     }
 
     .modal {
         position: relative;
         background: $color-white;
         width: 95%;
-        padding: 40px;
-        max-width: 528px;
-        max-height: 620px;
+        padding: 35px;
+        max-width: 450px;
+        max-height: 609px;
     }
 
     .modal-close {
@@ -225,7 +227,7 @@
     }
 
     .modal-title {
-        width: 448px;
+        width: 370px;
         height: 23px;
         left: 576px;
         top: 261px;
@@ -237,7 +239,7 @@
     }
 
     .modal-form {
-        padding-top: 12px;
+        padding-top: 25px;
     }
 
     .modal-name {
@@ -256,7 +258,7 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         height: 40px;
-        width: 448px;
+        width: 370px;
         padding-left: 40px;
         height: 40px;
         left: 576px;
@@ -295,7 +297,7 @@
     }
 
     .modal-textarea {
-        width: 100%;
+        width: 97%;
         font-size: 13px;
         padding: 16px 12px;
         outline: none;

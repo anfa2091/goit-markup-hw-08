@@ -76,15 +76,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-    .crd-section {
+    .card-section {
         width: 100%;
         margin: 0 auto;
-        padding: 30px 0px 140px;
+        padding: 30px 5px 80px;
     }
 
     .card-div {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 18px;
     }
