@@ -65,7 +65,40 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .portafolio-contain {
+        @include display;
+    }
+
+    .portafolio-btn {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 55px 25px;
+        gap: 25px 10px;
+    }
+
+    .portafolio-btn-category {
+        @include display;
+        background: $color-grey-background;
+        color: $color-dark--grey;
+        font-weight: 600px;
+        height: 40px;
+        padding: 15px;
+        width: max-content;
+        letter-spacing: 0.08em;
+        border: 1px solid $color-dark--grey;
+        border-radius: 4px;
+    }
+
+    .portafolio-btn-category:hover {
+        background: $color-blue;
+        color: $color-grey-background;
+        border: 2px solid $color-grey-rgba;
+    }
+}
+
+
 
 
 

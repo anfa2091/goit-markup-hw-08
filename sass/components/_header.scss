@@ -157,7 +157,82 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .header {
+        @include display;
+        width: 100%;
+        border: 1px solid #ececec;
+        height: 80px;
+        padding: 0px 20px;
+    }
+
+    .header-container {
+        @include display (space-between);
+        height: 80px;
+        width: 100%;
+    }
+   
+    .header-logo {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        color: $color-blue;
+    }
+
+    .header-nav {
+        @include display (space-between);
+        display: none;
+    }
+
+    .heder-nav-menu {
+        @include display (space-between);
+        gap: 40px;
+    }
+
+    .nv-menu {
+        font-weight: 500;
+        font-size: 14px;
+        color: $color-dark--grey;
+        position: relative;
+    }
+
+    .nv-menu-estudio {
+        color: $color-blue;
+    }
+
+    .nav-menu-estudio::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 5px;
+        background: $color-blue;
+        border-radius: 4px;
+        margin-top: 27px;
+    }
+
+    .header-contacto {
+        @include display (start);
+        flex-wrap: wrap;
+        gap: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0px 10px 0px 90px;
+    }
+
+    .header-email {
+        width: 16px;
+        height: 11px;
+        margin-right: 5px;
+    }
+
+    .header-telefono {
+        width: 10px;
+        height: 13px;
+        margin-right: 5px;
+    }
+}
 
 
 
