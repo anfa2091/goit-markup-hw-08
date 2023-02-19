@@ -60,11 +60,11 @@
         font-weight: 500;
         font-size: 30px;
         margin: 25px 0px;
-        color: blue;
+        color: $color-blue;
     }
 
     .mobile-contact-text:hover {
-        color: $color-blue;
+        color: #3749e7;
     }
 
     .mobile-redes{
@@ -80,7 +80,7 @@
     }
 
     .mobile-redes-text:hover, .mobile-redes-texto:hover{
-        border: 1px solid blue;
+        border: 1px solid #3749e7;
     }
 
     .mobile-redes-texto{

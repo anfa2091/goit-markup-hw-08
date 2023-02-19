@@ -1,66 +1,6 @@
 @import "../utils/variables";
 @import "../utils/mixin.scss";
 
-@media screen and (min-width: 1200px){
-
-    .customer-title {
-        @include display;
-        font-family: 'Roboto';
-        font-size: 36px;
-        letter-spacing: 0.03em;
-    }
-    
-    .customer-container {
-        @include display;
-        height: 150px;
-        gap: 25px;
-        margin: 30px 0px 60px;
-        padding: 0px 22px 0px 0px;
-    }
-    
-    .customer {
-        width: 170px;
-        height: 81px;
-        border: 1px solid $color-grey-icon;
-        border-radius: 4px;
-        fill: $color-grey-icon;
-    }
-    
-    .customer:hover path {
-        fill: $color-blue;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-
-    .customer-title {
-        @include display;
-        font-family: 'Roboto';
-        font-size: 36px;
-        letter-spacing: 0.03em;
-    }
-
-    .customer-container {
-        @include display;
-        flex-wrap: wrap;
-        height: 200px;
-        gap: 30px;
-        margin: 30px 0px 60px;
-    }
-
-    .customer {
-        width: 220px;
-        height: 81px;
-        border: 1px solid $color-grey-icon;
-        border-radius: 4px;
-        fill: $color-grey-icon;
-    }
-
-    .customer:hover path {
-        fill: $color-blue;
-    }
-}
-
 @media screen and (min-width: 480px) and (max-width: 767px) {
 
     .customer-title {
@@ -91,6 +31,61 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
+    .customer-title {
+        @include display;
+        font-family: 'Roboto';
+        font-size: 36px;
+        letter-spacing: 0.03em;
+    }
 
+    .customer-container {
+        @include display;
+        flex-wrap: wrap;
+        height: 200px;
+        gap: 30px;
+        margin: 30px 0px 60px;
+    }
 
+    .customer {
+        width: 220px;
+        height: 81px;
+        border: 1px solid $color-grey-icon;
+        border-radius: 4px;
+        fill: $color-grey-icon;
+    }
+
+    .customer:hover path {
+        fill: $color-blue;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .customer-title {
+        @include display;
+        font-family: 'Roboto';
+        font-size: 36px;
+        letter-spacing: 0.03em;
+    }
+
+    .customer-container {
+        @include display;
+        height: 150px;
+        gap: 25px;
+        margin: 30px 0px 60px;
+    }
+
+    .customer {
+        width: 170px;
+        height: 81px;
+        border: 1px solid $color-grey-icon;
+        border-radius: 4px;
+        fill: $color-grey-icon;
+    }
+
+    .customer:hover path {
+        fill: $color-blue;
+    }
+}
